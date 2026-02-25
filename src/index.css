@@ -1,0 +1,14 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body { font-family: 'Cairo', sans-serif; direction: rtl; overflow-x: hidden; background: #fff; }
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #f0f4f4; }
+::-webkit-scrollbar-thumb { background: #1a9e8f; border-radius: 3px; }
+button { font-family: 'Cairo', sans-serif; }
+@keyframes gridMove { from{background-position:0 0} to{background-position:55px 55px} }
+@keyframes float1 { 0%,100%{transform:translate(0,0)scale(1)} 50%{transform:translate(-40px,35px)scale(1.06)} }
+@keyframes float2 { 0%,100%{transform:translate(0,0)} 50%{transform:translate(35px,-25px)} }
+@keyframes pulse { 0%,100%{opacity:1;transform:scale(1)} 50%{opacity:.3;transform:scale(1.7)} }
+@keyframes logoFloat { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-10px)} }
+@keyframes bounce { 0%,100%{transform:translateX(-50%)translateY(0)} 50%{transform:translateX(-50%)translateY(10px)} }
+@keyframes shimmer { 0%,100%{opacity:.45} 50%{opacity:1} }
